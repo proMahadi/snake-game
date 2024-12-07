@@ -39,6 +39,10 @@ body{
     grid-template: repeat(25,1fr)/repeat(25,1fr) ;
 }
 .food{
+    background: goldenrod;
+    border-radius: 50%;
+}
+.snake{
     background: gray;
     border-radius: 50%;
 }
