@@ -62,10 +62,7 @@ function renderGame() {
   }
 
   for (let i = 1; i < snakeBody.length; i++) {
-    if (
-      (snakeBody[0],
-      [0] == snakeBody[i][0] && snakeBody[0][1] == snakeBody[i][1])
-    ) {
+    if (snakeBody[0][0] == snakeBody[i][0] && snakeBody[0][1] == snakeBody[i][1]) {
       gameOver();
     }
   }
